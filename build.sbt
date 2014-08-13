@@ -4,11 +4,11 @@ organization := "org.conbere"
 
 version := "0.2.0"
 
-scalaVersion := "2.10.0"
+scalaVersion := "2.11.+"
 
 scalacOptions += "-deprecation"
 
-libraryDependencies += "org.scalatest" % "scalatest_2.10" % "1.9.1" % "test"
+libraryDependencies += "org.scalatest" % "scalatest_2.11" % "latest.integration" % "test"
 
 libraryDependencies += "junit" % "junit" % "4.10" % "test"
 
